@@ -1,0 +1,16 @@
+{
+  "name": "potato-clock",
+  "version": "1.0.0",
+  "description": "a electrom demo",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "hexuchao",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^15.3.0",
+    "timer.js": "^1.0.4"
+  }
+}
