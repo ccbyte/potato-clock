@@ -15,11 +15,11 @@ function startWork() {
 }
 
 function updateTime(ms) {
-    // let timerContainer = document.getElementById('timer-container')
-    // let s = (ms / 1000).toFixed(0)
-    // let ss = s % 60
-    // let mm = (s / 60).toFixed(0)
-    // timerContainer.innerText = `${ mm.toString().padStart(2, 0) }: ${ ss.toString().padStart(2, 0) }`
+    let timerContainer = document.getElementById('timer-container')
+    let s = (ms / 1000).toFixed(0)
+    let ss = s % 60
+    let mm = (s / 60).toFixed(0)
+    timerContainer.innerText = `${ mm.toString().padStart(2, 0) }: ${ ss.toString().padStart(2, 0) }`
 }
 
 async function notification() {
